@@ -21,7 +21,7 @@ class UserRegSerializer(ModelSerializer):
 
 
 class UserSerializer(ModelSerializer):
-    """."""
+    """Сериалайзер пользователей."""
 
     class Meta:
         model = User
@@ -31,7 +31,7 @@ class UserSerializer(ModelSerializer):
 
 
 class UserAdminSerializer(ModelSerializer):
-    """."""
+    """Сериалайзер пользователей администратора."""
 
     class Meta:
         model = User

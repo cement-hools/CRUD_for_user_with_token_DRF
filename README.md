@@ -62,6 +62,7 @@
    Варианты активации окружения:
    - windows ``` venv/Scripts/activate ```
    - linux ``` venv/bin/activate ```
+     <br><br>
    ```
    python -m pip install -U pip
    ```
